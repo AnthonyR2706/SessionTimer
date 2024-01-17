@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SessionTimer/static/css/main.3c77fe34.css",
+    "main.js": "/SessionTimer/static/js/main.7690c371.js",
+    "index.html": "/SessionTimer/index.html",
+    "main.3c77fe34.css.map": "/SessionTimer/static/css/main.3c77fe34.css.map",
+    "main.7690c371.js.map": "/SessionTimer/static/js/main.7690c371.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c77fe34.css",
+    "static/js/main.7690c371.js"
+  ]
+}
