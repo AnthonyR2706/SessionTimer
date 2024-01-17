@@ -1,0 +1,70 @@
+$Primary: #c7313D;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  background: $Primary;
+  .app__wrapper {
+    padding-left: calc(100vw - 100%);
+    user-select: none;
+  }
+  .timerContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: auto;
+    padding: 1%;
+    font-size: 30px;
+  }
+  .title {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  .controllerContainer {
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 25px;
+    .timeControlContainer {
+      width: 50%;
+      .timeControl {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        cursor: pointer;
+        .timeText {
+          padding-left: 10px;
+          padding-right: 10px;
+          cursor: auto;
+        }
+      }
+      .timeControlHeader {
+        text-align: center;
+      }
+    }
+  }
+  .innerTimerContainer {
+    text-align: center;
+    background: pink;
+    height: 125px;
+    width: 35%;
+    margin: auto;
+    border-radius: 20px;
+    border: 5px solid black;
+    .timer {
+      font-size: 70px;
+    }
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
